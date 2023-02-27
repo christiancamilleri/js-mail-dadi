@@ -13,11 +13,12 @@ btnEl.addEventListener("click", function() {
 
         if (usermail == emails[i]) {
             window.location.href = "../game.html"
+            break;
         } else {
             let errorEl = document.getElementById("error");
 
             errorEl.innerHTML = "e-mail non registrata";
-            errorEl.style.color = "red"
+            errorEl.style.color = "red";
 
             usermailEl.value = "";
         }
