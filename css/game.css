@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin-top: 1em;
+}
+
+p {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+    padding: 1em;
+}
+
+.btn #gamebtn {
+    background-color: coral;
+    border: none;
+    border-radius: 30px;
+    color: white;
+
+    padding: 0.5em;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+i {
+    font-size: 7em;
+} 
+
+#result {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: chocolate;
+}
